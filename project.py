@@ -15,7 +15,7 @@ class Book:
 
     def __repr__(self):
         type_str = "Standalone" if self.is_standalone else f"Series: {self.series_name} #{self.series_order}"
-        return f"{type_str} | '{self.title}' by {self.author} | {self.genre} | Height: {self.height}cm"
+        return f"'{self.title}' by {self.author} | {self.genre} | {type_str} | Height: {self.height}cm"
 
 # Empty bookshelf that users add books to
 bookshelf = []
