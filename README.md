@@ -29,9 +29,13 @@ To use this algorithm on your own, you will first need to have the Python 3 exte
 * ZIP- Click on the Code button on the GitHub page, select Download ZIP
 
 ## Known Issues
-While I have not run into any syntax issues, I have noticed a logic one. 
+While I have not run into any syntax issues, I have noticed some logic issues. 
 
-* If the user wants to add more books after first sorting the list, they will need to press the "Sort Bookshelf" button again to update the list with the new book. When the user inputs new books after sorting a list of books, the list will reset to the order in which the user inputted them. 
+* If the user wants to add more books after first sorting the list, they will need to press the "Sort Bookshelf" button again to update the list with the new book. When the user inputs new books after sorting a list of books, the list will reset to the order in which the user inputted them.
+* The user can only enter an integer as input for the height of the book. I forgot to change it to a float so that users can have a more accurate result. 
+* I should also let the user put in a float for the volume number to represent novellas in series. 
+* Put in a "Clear Bookshelf" button to get rid of the current list of books if users want to start on a new set of books. 
+* A way to represent a book with more than one author. 
 
 ## Expansion
 I also have some ideas I want to add to make this algorithm better and expand it into an app:  
